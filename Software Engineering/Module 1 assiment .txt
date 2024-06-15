@@ -1,0 +1,181 @@
+✨[Question 1] What is Software? What is Software Engineering?
+
+🎯[Answer] :-
+ Software refers to the collection of programs, procedures, algorithms, and its documentation concerned with the operation of a data processing system. Unlike hardware, which refers to the physical components of a computer, software is intangible and instructs the hardware on what tasks to perform.
+
+Software Engineering is a systematic, disciplined, and quantifiable approach to the development, operation, and maintenance of software. It is an engineering discipline that is concerned with all aspects of software production, from the early stages of system specification to maintaining the system after it has gone into use.
+
+--------------------------------------------------------------------------------------------
+
+✨[Question 2] Explain types of software
+
+🎯[Answer] :-
+
+1. System Software: Manages and controls hardware operations, including operating systems (e.g., Windows, Linux) and utilities (e.g., antivirus programs).
+
+2. Application Software: Helps users perform specific tasks. Examples include productivity tools (e.g., Microsoft Office), media players (e.g., VLC), web browsers (e.g., Chrome), and games.
+
+3. Middleware: Acts as a bridge between system software and applications, facilitating communication and data management. Examples include database connectors (e.g., ODBC) and web servers (e.g., Apache).
+
+4. Programming Software: Provides tools for developers to create, debug, and maintain software. This includes compilers, debuggers, and integrated development environments (IDEs) like Visual Studio.
+
+5. Embedded Software: Controls devices and performs specific functions within hardware (e.g., firmware in appliances).
+
+6. Specialized Software: Tailored for specific industries or tasks, such as scientific research (e.g., MATLAB), business operations (e.g., SAP), and education (e.g., Duolingo).
+
+--------------------------------------------------------------------------------------------
+
+✨[Question 3] What is SDLC? Explain each phase of SDLC
+
+🎯[Answer] :-
+
+The Software Development Life Cycle (SDLC) is a structured process used for developing software applications. It consists of several phases:
+
+1. Requirement Analysis: Gather and document the functional and non-functional requirements from stakeholders. This phase ensures a clear understanding of what the software should do.
+
+2. System Design: Create architecture and design specifications based on the gathered requirements. This includes defining system components, interfaces, and data flow.
+
+3. Implementation (Coding): Translate the design documents into actual code using programming languages. Developers write and compile the software components.
+
+4. Testing: Verify and validate the software to ensure it meets the requirements and is free of bugs. This includes unit testing, integration testing, system testing, and user acceptance testing.
+
+5. Deployment: Release the software to the production environment where users can access it. This phase includes installation, configuration, and initial user training.
+
+6. Maintenance: Provide ongoing support and updates to the software, fixing bugs, and adding new features as required. This ensures the software remains functional and relevant over time.
+
+--------------------------------------------------------------------------------------------
+
+✨[Question 4] What is DFD? Create a DFD diagram on Flipkart
+
+🎯[Answer] :-
+
+DFD (Data Flow Diagram):
+
+A DFD is a graphical representation that depicts the flow of data within a system. It visually shows how data moves through a system, what processes transform it, and where it's stored or outputted. DFDs are valuable tools for system design, documentation, and communication between technical and non-technical stakeholders.
+
+Flipkart DFD
+
+1. External Entities:
+
+ -> Customer: Interacts with the system by searching for products, placing orders, and making payments.
+
+ ->Supplier: Provides products and updates inventory.
+
+ ->Payment Gateway: Processes payments.
+
+2. Processes:
+
+->Search Products: Customers search for products in the database.
+
+->Place Order: Customers place orders which are recorded.
+
+->Process Payment: Handles payment through a payment gateway.
+
+->Manage Inventory: Updates inventory from suppliers and tracks product availability.
+
+->Dispatch Order: Processes and dispatches orders.
+
+3. Data Stores:
+
+->Product Database: Stores product details and inventory.
+
+->Order Database: Stores customer orders.
+
+->Customer Database: Stores customer information.
+
+->Payment Records: Stores payment transaction details.
+
+--------------------------------------------------------------------------------------------
+
+✨[Question 4] What is Flow chart? Create a flowchart to make addition of two numbers
+
+🎯[Answer] :- 
+
+A flowchart is a graphical representation of a process or algorithm, illustrating the steps and their sequence using various symbols. Each symbol represents a different type of action or step in the process, such as processing, decision-making, input/output, and more.
+
+=> Symbols Used in Flowcharts:
+                a. Oval: Start or end of the process.
+                b. Rectangle: A process or action step.
+                c. Parallelogram: Input or output operation.
+                d. Diamond: Decision point, branching the flow based on a condition.
+
+
+=> Flowchart for Adding Two Numbers
+
+  step-by-step flowchart for adding two numbers:
+
+                1. Start: Begin the process.
+                2. Input: Read the first number (A).
+                3. Input: Read the second number (B).
+                4. Process: Add the two numbers (Sum = A + B).
+                5. Output: Display the sum.
+                6. End: Terminate the process.
+
+ 🚀 Visual Representation:           
+
+       [Start]
+          |
+      [Input A]
+          |
+      [Input B]
+          |
+      [A + B = Sum]
+          |
+     [Display Sum]
+          |
+        [End]
+
+
+This flowchart shows a simple and clear representation of the steps required to add two numbers and display the result. You can create visual flowcharts using tools like Microsoft Visio, Lucidchart, or draw.io.
+
+=> To create this flowchart visually:
+
+                1. Start (Oval): Label as "Start".
+                2. Input A (Parallelogram): Label as "Input A".
+                3. Input B (Parallelogram): Label as "Input B".
+                4. Process (Rectangle): Label as "A + B = Sum".
+                5. Output (Parallelogram): Label as "Display Sum".
+                6. End (Oval): Label as "End".
+
+                
+--------------------------------------------------------------------------------------------
+
+✨[Question 5] What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+🎯[Answer] :- 
+
+A Use Case Diagram is a visual representation of the interactions between users (actors) and a system, depicting the various ways the system can be used to achieve specific goals. It highlights the system's functionality and the relationships between the actors and the use cases (specific actions or tasks performed by the system).
+
+
+=> Use Case Diagram for Bill Payment on Paytm
+
+1. Actors:
+        a. User: Initiates the bill payment process.
+        b. Payment Gateway: Processes the payment.
+        c. Bill Provider: Receives the payment information.
+
+2. Use Cases:
+        a. Login: User logs into the Paytm account.
+        b. Select Bill Type: User selects the type of bill to be paid (e.g., electricity, water, gas).
+        c. Enter Bill Details: User enters bill details such as account number and amount.
+        d. Make Payment: User chooses a payment method and completes the transaction.
+        e. Confirm Payment: System confirms the payment and updates the bill status.
+        f. Receive Payment Confirmation: Bill provider receives confirmation of payment.
+
+ 🚀 Visual Representation:     
+
+  [User] --> (Login)
+  [User] --> (Select Bill Type)
+  [User] --> (Enter Bill Details)
+  [User] --> (Make Payment)
+  (Make Payment) --> [Payment Gateway]
+  (Confirm Payment) --> [Bill Provider]
+  [User] <-- (Receive Payment Confirmation)
+
+=> In this diagram:
+        1. The User logs in, selects the bill type, enters the details, and makes the payment.
+        2. The Payment Gateway processes the transaction.
+        3. The Bill Provider receives the payment confirmation.
+        4. The system confirms the payment and sends a confirmation to the user.
+
+--------------------------------------------------------------------------------------------
